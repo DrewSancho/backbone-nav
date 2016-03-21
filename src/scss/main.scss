@@ -1,0 +1,19 @@
+@import "components/normalize";
+html body {
+    height: 100%;
+}
+
+.nav button {
+    transition: all linear 500ms;
+}
+
+.nav button {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.nav button.is-active {
+    background-color: #000;
+    color: #fff;
+}
+
